@@ -1,5 +1,5 @@
 from sqlalchemy.orm import sessionmaker
-form models import Deals, db_connect, create_deals_table
+from models import Deals, db_connect, create_deals_table
 
 class LivingSocialPipeline(object):
     """Livingsocial pipeline for storing scraped items in the database"""
