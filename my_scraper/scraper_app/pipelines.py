@@ -19,7 +19,7 @@ class LivingSocialPipeline(object):
         This method is called for every item pipeline component.
         """
         session = self.Session()
-        deal = Deals(**items)
+        deal = Deals(**item)
 
         try:
             session.add(deal)
